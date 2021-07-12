@@ -1,0 +1,268 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f6f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    background-color: rgb(88, 0, 0);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+}
+
+.logo {}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.head img {
+    flex: 1;
+    width: 20vh;
+}
+
+.head .about {
+    flex: 1;
+}
+
+.head .about p:nth-child(1) {
+    font-size: 1rem;
+}
+
+.head .about p:nth-child(2) {
+    font-size: 3rem;
+}
+
+.aboutText {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 20rem;
+    margin: 5rem;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 20px;
+}
+
+.aboutText img {
+    height: 50vh;
+}
+
+.aboutText p {
+    margin-left: 2rem;
+}
+
+.boxes {
+    margin: 5rem;
+}
+
+.boxes .title {
+    margin-left: 2rem;
+    font-size: 4vh;
+}
+
+.title2 {
+    margin-left: 7rem;
+    font-size: 4vh;
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1,
+.box2,
+.box3 {
+    background: #2d2a2a;
+    width: 50vh;
+    height: 50vh;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.box1 p:nth-child(1),
+.box2 p:nth-child(1),
+.box3 p:nth-child(1) {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.box1 p:nth-child(2),
+.box2 p:nth-child(2),
+.box3 p:nth-child(2) {
+    color: #fff;
+}
+
+.box1:hover p:nth-child(1),
+.box2:hover p:nth-child(1),
+.box3:hover p:nth-child(1),
+.box1:hover p:nth-child(2),
+.box2:hover p:nth-child(2),
+.box3:hover p:nth-child(2) {
+    color: rgb(32, 32, 32);
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+    background: #fff;
+    width: 50vh;
+    height: 50vh;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.skills {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 20rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 20px;
+}
+
+.skillsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vh;
+}
+
+.skill {
+    margin: 1rem;
+}
+
+.progressJava {
+    position: relative;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(172, 0, 0));
+    width: 100%;
+    height: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.progressJava::after {
+    content: "";
+    width: 100%;
+    height: 1rem;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 40%;
+}
+
+.progressCPP {
+    position: relative;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(172, 0, 0));
+    width: 100%;
+    height: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.progressCPP::after {
+    content: "";
+    width: 100%;
+    height: 1rem;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 50%;
+}
+
+.progressJS {
+    position: relative;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(172, 0, 0));
+    width: 100%;
+    height: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.progressJS::after {
+    content: "";
+    width: 100%;
+    height: 1rem;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    left: 60%;
+}
+
+.skillAbout {
+    flex: 2;
+    margin-left: 3rem;
+}
+
+.footer {
+    width: 100%;
+    height: 7rem;
+    background: rgb(88, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.footer .contactContainer ul li {
+    color: #fff;
+}
+
+.footer .contactContainer {
+    width: 100%;
+    height: 3rem;
+}
+
+.footer .contactContainer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
